@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--
 This is a starter template page. Use this page to start your new project from
@@ -69,22 +68,17 @@ scratch. This page gets rid of all links and provides the needed markup only.
            <li class="nav-item">
             <router-link to="/dashboard" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
-              <p>
-                Dashboard
-              </p>
+              <p>Dashboard</p>
             </router-link>
           </li>
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-cog"></i>
-              <p>
-                Configurações
-                <i class="right fas fa-angle-left"></i>
-              </p>
+              <p>Configurações <i class="right fas fa-angle-left"></i></p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link active">
+                <a href="#" class="nav-link">
                   <i class="fas fa-circle nav-icon"></i>
                   <p>Active Page</p>
                 </a>
@@ -100,17 +94,13 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <li class="nav-item">
           <router-link to="/profile" class="nav-link">
             <i class="nav-icon fas fa-user"></i>
-            <p>
-              Perfil
-            </p>
+            <p>Perfil</p>
           </router-link>
         </li>
         <li class="nav-item">
           <a href="#" class="nav-link">
             <i class="nav-icon fas fa-power-off"></i>
-            <p>
-              Sair
-            </p>
+            <p>Sair</p>
           </a>
         </li>
         </ul>

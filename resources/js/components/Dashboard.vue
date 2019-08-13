@@ -5,7 +5,9 @@
                 <div class="card card-default">
                     <div class="card-header">Dashboard</div>
                     <div class="card-body">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ducimus dignissimos inventore dolorem ea voluptates saepe eaque iure? Cumque magnam veritatis quae dolores ullam error suscipit praesentium. Non, hic voluptatibus.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Quod ducimus dignissimos inventore dolorem ea voluptates saepe eaque iure?
+                        Cumque magnam veritatis quae dolores ullam error suscipit praesentium. Non, hic voluptatibus.
                     </div>
                 </div>
             </div>

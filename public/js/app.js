@@ -1751,6 +1751,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -37111,7 +37113,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("div", { staticClass: "card-body" }, [
               _vm._v(
-                "\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ducimus dignissimos inventore dolorem ea voluptates saepe eaque iure? Cumque magnam veritatis quae dolores ullam error suscipit praesentium. Non, hic voluptatibus.\n                "
+                "\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                    Quod ducimus dignissimos inventore dolorem ea voluptates saepe eaque iure?\n                    Cumque magnam veritatis quae dolores ullam error suscipit praesentium. Non, hic voluptatibus.\n                "
               )
             ])
           ])
@@ -52233,7 +52235,9 @@ var routes = [{
   component: __webpack_require__(/*! ./components/Profile.vue */ "./resources/js/components/Profile.vue")["default"]
 }];
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
-  routes: routes
+  mode: 'history',
+  routes: routes,
+  linkActiveClass: 'active'
 });
 /**
  * The following block of code may be used to automatically register your
